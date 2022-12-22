@@ -1,0 +1,25 @@
+body {
+	background-color: #535659;
+	margin: 0;
+}
+
+.page {
+	background-color: white;
+	width: 210mm;
+	max-width: 210mm;
+	min-width: 210mm;
+	margin-left: auto;
+	margin-right: auto;
+
+	display: flex;
+}
+
+.sidebar {
+	background-color: #434548;
+	width: 33.33%;
+	color: white;
+}
+
+.content {
+	flex-grow: 1;
+}
